@@ -1,0 +1,33 @@
+#frame1:hover {
+transform: scale(1.04, 1.04);
+top: 222px;
+}
+
+#frame2:hover {
+transform: scale(1.04, 1.04);
+top: 89px;
+left: 139px;
+}
+#frame3:hover {
+transform: scale(1.04, 1.04);
+top: 334px;
+left: 338px;
+}
+
+#frame4 {
+position: absolute;
+left: 599px;
+top: 66px;
+}
+
+#frame4:hover {
+transform: scale(1.0, 1.01);
+left: 599px;
+top: 65px;
+}
+
+#frame5:hover {
+transform: scale(1.04, 1.04);
+left: 646px;
+top: 348px;
+}

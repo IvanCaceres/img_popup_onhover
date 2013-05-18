@@ -1,0 +1,144 @@
+html {
+background: #2c2c2c;
+background: -moz-linear-gradient(left, #2c2c2c 0%, #6b6b6b 50%, #2c2c2c 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2c2c2c), color-stop(50%,#6b6b6b), color-stop(100%,#2c2c2c));
+background: -webkit-linear-gradient(left, #2c2c2c 0%,#6b6b6b 50%,#2c2c2c 100%);
+background: -o-linear-gradient(left, #2c2c2c 0%,#6b6b6b 50%,#2c2c2c 100%);
+background: -ms-linear-gradient(left, #2c2c2c 0%,#6b6b6b 50%,#2c2c2c 100%);
+background: linear-gradient(to right, #2c2c2c 0%,#6b6b6b 50%,#2c2c2c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2c', endColorstr='#2c2c2c',GradientType=1 );
+}
+
+
+.container {
+	width:970px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url('images/background.jpg');
+	height:700px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.header {
+	background:rgba(255, 255, 255, 0.65);
+	width:auto;
+	height:66px;
+	border-top: 2px solid #4d0b07;
+	border-bottom: 2px solid #4d0b07;
+	position:relative;
+	top:72px;
+}
+
+.navmenu {
+margin-top: 13px;
+font-size: 12px;
+text-transform: uppercase;
+font-family: 'Helvetica Neue', sans-serif;
+}
+
+#homelink {
+	display:inline-block;
+	margin-left: 124px;
+	padding-right: 14px;
+	color:black;
+}
+
+#links {
+	margin-left: 189px;
+	display: inline-block;
+	padding-right: 14px;
+	color: black;
+}
+
+.navmenu div {
+	display:inline-block;
+	border-left: 2px solid #4d0b07;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.navlink {
+	text-decoration: none;
+	color:black;
+}
+
+#toplogo {
+	position: absolute;
+	top: 7px;
+	left: 489px;
+}
+
+#sidelogo {
+position: absolute;
+top: 17.7px;
+left: 567px;
+z-index: 200;
+height:174px;
+}
+
+#frame1 {
+position: absolute;
+top: 231px;
+}
+
+#frame1:hover {
+	zoom: 1.14;
+	top: 169px;
+}
+
+#frame2 {
+	position: absolute;
+	top: 86px;
+	left: 140px;
+}
+
+#frame2:hover{
+	zoom: 1.14;
+	top: 72px;
+	left: 106px;
+}
+
+#frame3 {
+	position: absolute;
+	left: 331px;
+	top: 328px;
+}
+
+#frame3:hover {
+	position: absolute;
+	top: 289px;
+	left: 306px;
+	zoom: 1.09;
+}
+
+#frame4 { 
+	position: absolute;
+	left: 598px;
+	top: 66px;
+}
+
+#frame4:hover {
+	zoom: 1.03;
+	position: absolute;
+	left: 585px;
+	top: 65px;
+}
+
+#frame5 {
+position: absolute;
+left: 651px;
+top: 352px;
+}
+
+#frame5:hover {
+	position: absolute;
+	zoom: 1.09;
+	left: 582px;
+	top: 304px;
+
+}
+
+.content img {
+	display:inline-block;
+}
